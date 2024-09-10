@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.visionos.deployment_target = visionos_deployment_target
   s.watchos.deployment_target = watchos_deployment_target
 
-  s.dependency 'GTMSessionFetcher/Full', '>= 1.6.1', '< 4.0'
+  s.dependency 'GTMSessionFetcher/Full', '3.4.1'
 
   s.prefix_header_file = false
 
